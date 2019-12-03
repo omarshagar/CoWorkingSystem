@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace COWORKING
 {
-    public partial class SignIn : Form
+    public partial class SignUp : Form
     {
-        public SignIn()
+        public SignUp()
         {
             InitializeComponent();
         }
 
-        private void TextBox1_TextChanged(object sender, EventArgs e)
+        private void CheckBox1_CheckedChanged(object sender, EventArgs e)
         {
 
         }
@@ -27,29 +27,11 @@ namespace COWORKING
 
         }
 
-        private void Button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TextBox1_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void ExitButton_Click(object sender, EventArgs e)
         {
             this.panel1.Visible = false;
-        }
-
-        private void SignIn_Load(object sender, EventArgs e)
-        {
-
+           
+            
         }
     }
 }
