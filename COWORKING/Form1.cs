@@ -49,6 +49,7 @@ namespace COWORKING
             this.HomePanel.Visible = false;
             this.SignInPanel.Enabled = true;
             this.SignInPanel.Visible = true;
+            
         }
 
         private void ExitButton_Click(object sender, EventArgs e)
@@ -73,6 +74,16 @@ namespace COWORKING
             this.SignUpPanel.Visible = true;
             this.HomePanel.Enabled = false ;
             this.HomePanel.Visible = false;
+        }
+
+        private void HomePanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
